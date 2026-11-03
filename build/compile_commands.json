@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/build",
+  "command": "/C/msys64/ucrt64/bin/g++.exe  @CMakeFiles/interciclo_vision.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles/interciclo_vision.dir/Principal.cpp.obj -c /C/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/Principal.cpp",
+  "file": "C:/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/Principal.cpp",
+  "output": "CMakeFiles/interciclo_vision.dir/Principal.cpp.obj"
+}
+]
