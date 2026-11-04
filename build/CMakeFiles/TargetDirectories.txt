@@ -1,3 +1,0 @@
-C:/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/build/CMakeFiles/interciclo_vision.dir
-C:/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/build/CMakeFiles/edit_cache.dir
-C:/Users/kenny/OneDrive/Documents/Proyecto-Interciclo-Vision/build/CMakeFiles/rebuild_cache.dir

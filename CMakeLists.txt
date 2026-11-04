@@ -8,7 +8,12 @@ find_package(OpenCV REQUIRED COMPONENTS
     core imgproc highgui imgcodecs videoio viz
 )
 
-add_executable(interciclo_vision Principal.cpp)
+add_executable(interciclo_vision Principal.cpp Mediciones.cpp)
 
 target_include_directories(interciclo_vision PRIVATE ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(interciclo_vision PRIVATE ${OpenCV_LIBS})
+
+if(WIN32)
+    # psapi consulta la RAM del proceso; pdh proporciona los contadores GPU de Windows.
+    target_link_libraries(interciclo_vision PRIVATE psapi pdh)
+endif()
